@@ -7,7 +7,7 @@ import pygetwindow as gw
 from pynput import mouse
 
 # Load ONNX model
-model_path = "fortnite_model.onnx"  # Change to your model's file
+model_path = "model/fortnitemodel.onnx"
 session = ort.InferenceSession(model_path)
 
 # Get input and output names
